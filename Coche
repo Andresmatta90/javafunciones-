@@ -17,3 +17,8 @@ public class Coche {
     public int getNumPuertas() {
         return numPuertas;
     }
+
+    public void agregarPuerta() {
+        numPuertas++;
+    }
+}
